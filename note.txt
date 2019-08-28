@@ -1,0 +1,23 @@
+---------Commands to crate file using CMD -------
+touch filename.txt creates a new file
+echo > filename.txt creates a new file
+cat > filename.txt creates and can start appending to that file
+vim filename.txt crate and can start editing the file
+Note : .txt extenstion is not neccessary, May be didn't check it as of now
+To save changes in vim editor -
+- press esc key, ten : (colon) and then type :x
+- to avoid changes type :q
+To again enter in the insert mode in vim
+- Type vim filename.txt and immediately type i
+
+--------- Git Commands --------
+git init		- To initialize git in local system
+
+git status <filename>	- To check the status of the directory
+			- Results untracked if file is not added using git add
+			- Else, results ready for commit, if there is no commit yet
+
+git add <filename>	- To commit the changes or file
+			- git add <.> dot (.) can be used to commit all the files at once
+
+
