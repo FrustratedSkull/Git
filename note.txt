@@ -11,15 +11,16 @@ To again enter in the insert mode in vim
 - Type vim filename.txt and immediately type i
 
 --------- Git Commands --------
-git init				-	To initialize git in local system
-
-git status <filename>	-	To check the status of the directory
-						-	Results untracked if file is not added using git add
-						-	Else, results ready for commit, if there is no commit yet
-
-git add <filename>		-	To stage the file for commit
-						-	git add <.> dot (.) can be used to commit all the files at once
-
-git commit -m "message"	-	To commit the changes
-						-	Message is written between double quotes "here"
+git init					-	To initialize git in local system
+	
+git status <filename>		-	To check the status of the directory
+							-	Results untracked if file is not added using git add
+							-	Else, results ready for commit, if there is no commit yet
+	
+git add <filename>			-	To stage the file for commit
+							-	git add <.> dot (.) can be used to commit all the files at once
+	
+git commit -m "message"		-	To commit the changes
+							-	Message is written between double quotes "here"
 						
+git remote add origin <url>	-	To sync the repository with github
