@@ -24,3 +24,5 @@ git commit -m "message"		-	To commit the changes
 							-	Message is written between double quotes "here"
 						
 git remote add origin <url>	-	To sync the repository with github
+
+git push origin master		-	To push the committed file to git hub
